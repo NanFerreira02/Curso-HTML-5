@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropzone</title>
+
+    <style>
+        .caixa {
+            width: 100px;
+            height: 100px;
+            background-color: darkred;
+        }
+        .drop {
+            width: 200px;
+            height: 200px;
+            border:1px solid darkgoldenrod ;
+        }
+    </style>
+</head>
+<body>
+    <!-- Deixa uma área apta para soltar conteúdo, conversa diretamente com o atributo 'Draggable',
+    logo, um item arrastável e uma área para você soltar esse conteúdo -->
+    
+    <div class="caixa" draggable="true"></div>
+    
+    <div class="drop" dropzone="copy"></div>
+
+</body>
+</html>
