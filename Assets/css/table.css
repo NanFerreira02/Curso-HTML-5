@@ -22,3 +22,8 @@ tfoot tr {
 	background-color: #333;
 	color: #fff;
 }
+table caption {
+	text-align: left;
+	font-weight: bold;
+	color: red;
+}

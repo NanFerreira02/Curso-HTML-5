@@ -4,34 +4,35 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>TBody</title>
+		<title>Colgroup</title>
 		<link rel="stylesheet" href="../Assets/css/table.css" />
 	</head>
 	<body>
 		<table>
+			<colgroup span="2" style="background-color: darkorange"></colgroup>
 			<thead>
-				<tr>
-					<th>Header 1</th>
-					<th>Header 2</th>
-					<th>Header 3</th>
-				</tr>
+				<th>A</th>
+				<th>B</th>
+				<th>C</th>
 			</thead>
 
 			<tbody>
 				<tr>
-					<td colspan="2">a1</td>
-					<td>c1</td>
+					<td>A1</td>
+					<td>B1</td>
+					<td>C1</td>
 				</tr>
+
 				<tr>
-					<td>a2</td>
-					<td rowspan="2">b2</td>
-					<td>c2</td>
-				</tr>
-				<tr>
-					<td>a3</td>
-					<td>c3</td>
+					<td>A2</td>
+					<td>B2</td>
+					<td>C2</td>
 				</tr>
 			</tbody>
+
+			<tfoot>
+				<td colspan="3">Footer</td>
+			</tfoot>
 		</table>
 	</body>
 </html>
